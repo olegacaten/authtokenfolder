@@ -1,0 +1,20 @@
+# POST http://127.0.0.1:8000/api/login/ HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "qwerty@qwerty",
+#     "password": "qwerty"
+# }
+# ###
+
+POST http://127.0.0.1:8000/api/todo/ HTTP/1.1
+content-type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjY2ODgyODY1LCJleHAiOjE2NjY4ODY0NjUsIm5iZiI6MTY2Njg4Mjg2NSwianRpIjoiMzFNQVVhb2Z4cDhRWWM3eiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.GQoyjqC6XekItuOcJNhD72Uq0tJYBEyPM86QpO3p0vs;
+
+{
+    "title": "name of des",
+    "description": "Its descriprion of description"
+}
+
+###
